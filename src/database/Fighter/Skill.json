@@ -6,8 +6,16 @@
         "Items":[
             {
                 "Display":"空蜜S1",
-                "Cost": 55
-
+                "Cost": 55,
+                "Target": "己方先鋒全體",
+                "Action": "增加屬性攻擊",
+                "Element": "空",
+                "Type": "%",
+                "Point": 50,
+                "Interval": "每回合",
+                "IntervalPoint": 1,
+                "Trigger": "持續",
+                "TriggerPoint": 1
             }
         ]
     },
