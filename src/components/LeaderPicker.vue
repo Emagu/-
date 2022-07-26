@@ -14,14 +14,17 @@
       </select>
       <select v-if="data.類型=='特性'" v-model="data.屬性">
         <optgroup v-for="(group, gindex) in 特性分類" :key="gindex" :label="group.label">
-          <option v-for="(item, index) in group.elementes" :key="index" :value="item.Value">{{item.Display}}</option>
+          <option v-for="(item, index) in group.elementes" :key="index" :value="index">{{item.Display}}</option>
         </optgroup>
       </select>
       <select v-if="data.類型=='技能'" v-model="data.屬性">
-        <option v-for="(item, index) in 技能分類" :key="index" :value="item.Value">{{item.Display}}</option>
+        <option v-for="(item, index) in 技能分類" :key="index" :value="index">{{item.Display}}</option>
       </select>
     </td>
-    <td style="min-width:20px"><div v-if="data.類型=='屬性' || data.類型=='攻擊方式'"><input type="number" min="0" v-model="data.數值" />%</div></td>
+    <td style="min-width:20px">
+      <div v-if="data.類型=='屬性' || data.類型=='攻擊方式'"><input type="number" min="0" v-model="data.數值" />%</div>
+      <div v-if="data.數值類型 == 'Text'"><input type="text" v-model="data.數值" /></div>
+    </td>
     <td><button @click="add">+</button></td>
     <td><button @click="remove(dkey)">-</button></td>
   </tr>

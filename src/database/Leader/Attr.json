@@ -1,4 +1,5 @@
 [
+    {"Value": "角色名", "Display": "角色名", "Type": "Text"},
     {"Value": "屬性", "Display": "屬性", "Type": "Select"},
     {"Value": "攻擊方式", "Display": "攻擊方式", "Type": "Select"},
     {"Value": "技能", "Display": "技能", "Type": "Select"},
