@@ -1,0 +1,29 @@
+[
+    {
+        "Display": "地白老", 
+        "Effect": [
+            {
+                "Action": "增加技能點",
+                "Point": 40
+            },
+            {
+                "Action": "轉魂",
+                "Before": "加護",
+                "BeforeCout": 3,
+                "After": "奧義",
+                "AfterCount": 3
+            },
+            {
+                "Action": "轉魂",
+                "Before": "技能",
+                "BeforeCout": 3,
+                "After": "奧義",
+                "AfterCount": 3
+            }
+        ]
+    },
+    {"Display": "風蜥蜴"},
+    {"Display": "光拉米"},
+    {"Display": "光靜"},
+    {"Display": "空中二"}
+]

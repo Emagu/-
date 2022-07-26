@@ -1,0 +1,16 @@
+[
+    {"Display":"未選擇", "Items":[]},
+    {"Display":"轉魂", "Items":[]},
+    {
+        "Display":"攻擊",
+        "Items":[
+            {
+                "Display":"空蜜S1",
+                "Cost": 55
+
+            }
+        ]
+    },
+    {"Display":"防禦", "Items":[]},
+    {"Display":"特殊", "Items":[]}
+]   

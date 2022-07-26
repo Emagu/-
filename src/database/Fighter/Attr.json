@@ -1,0 +1,17 @@
+[
+    {"Value": "角色名", "Display": "角色名", "Type": "Text"},
+    {"Value": "屬性", "Display": "屬性", "Type": "Select"},
+    {"Value": "攻擊方式", "Display": "攻擊方式", "Type": "Select"},
+    {"Value": "傷害", "Display": "傷害", "Type": "Point"},
+    {"Value": "防禦", "Display": "防禦", "Type": "Point"},
+    {"Value": "生命", "Display": "生命", "Type": "Point"},
+    {"Value": "會心力", "Display": "會心力", "Type": "%"},
+    {"Value": "會心率", "Display": "會心率", "Type": "%"},
+    {"Value": "貫穿率", "Display": "貫穿率", "Type": "%"},
+    {"Value": "貫穿力", "Display": "貫穿力", "Type": "%"},
+    {"Value": "技能", "Display": "技能", "Type": "Select"},
+    {"Value": "技能", "Display": "技能", "Type": "Select"},
+    {"Value": "特性", "Display": "特性", "Type": "Select"},
+    {"Value": "奧義類型", "Display": "奧義類型", "Type": "Select"},
+    {"Value": "奧義百分比", "Display": "奧義百分比", "Type": "%"}
+]

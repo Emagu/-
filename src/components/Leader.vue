@@ -10,7 +10,7 @@
     const add = ()=>{
         data1.data.elements.push({
             類型: "屬性",
-            屬性: "風",
+            屬性: 0,
             數值: 0
         });
     }
