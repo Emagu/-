@@ -8,14 +8,43 @@
                 "Display":"空蜜S1",
                 "Cost": 55,
                 "Target": "己方先鋒全體",
-                "Action": "增加屬性攻擊",
-                "Element": "空",
-                "Type": "%",
-                "Point": 50,
-                "Interval": "每回合",
-                "IntervalPoint": 1,
-                "Trigger": "持續",
-                "TriggerPoint": 1
+                "Effect":[
+                    {
+                        "Action": "增加屬性攻擊",
+                        "Element": "空",
+                        "Type": "%",
+                        "Point": 50,
+                        "Interval": "每回合",
+                        "IntervalPoint": 1,
+                        "Trigger": "持續",
+                        "TriggerPoint": 1
+                    }
+                ]
+            },
+            {
+                "Display":"空蜜S2",
+                "Cost": 15,
+                "Target": "自身",
+                "Effect":[
+                    {
+                        "Action": "增加攻擊力",
+                        "Type": "%",
+                        "Point": 20,                        
+                        "Interval": "每回合",
+                        "IntervalPoint": 1,
+                        "Trigger": "持續",
+                        "TriggerPoint": 1
+                    },
+                    {
+                        "Action": "增加BUFF效果",
+                        "Type": "%",
+                        "Point": 20,                        
+                        "Interval": "每回合",
+                        "IntervalPoint": 1,
+                        "Trigger": "持續",
+                        "TriggerPoint": 1
+                    }
+                ]
             }
         ]
     },
