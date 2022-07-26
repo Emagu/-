@@ -5,20 +5,30 @@
   },
   {
     "Display": "每3回合增加4加護計量",
-    "Action": "增加加護",
     "Interval": "每幾回合",
     "IntervalValue": 3,
-    "Trigger": "持續"
+    "Trigger": "持續",
+    "TriggerPoint": -1,
+    "Action": "增加加護",
+    "Point": 4
   },
   {
     "Display": "每3回合增加6加護計量",
-    "Action": "增加加護",
     "Interval": "每幾回合",
-    "IntervalValue": 6,
-    "Trigger": "持續"
+    "IntervalValue": 3,
+    "Trigger": "持續",
+    "TriggerPoint": -1,
+    "Action": "增加加護",
+    "Point": 6
   },
   {
-    "Display": "每3回合增加3技能點"
+    "Display": "每3回合增加3技能點",
+    "Interval": "每幾回合",
+    "IntervalValue": 3,
+    "Trigger": "持續",
+    "TriggerPoint": -1,
+    "Action": "增加技能點",
+    "Point": 3
   },
   {
     "Display": "每3回合增加5技能點"
