@@ -7,9 +7,9 @@
             {
                 "Display":"空蜜S1",
                 "Cost": 55,
-                "Target": "己方先鋒全體",
                 "Effect":[
                     {
+                        "Target": "己方先鋒全體",
                         "Action": "增加屬性攻擊",
                         "Element": "空",
                         "Type": "%",
@@ -24,9 +24,9 @@
             {
                 "Display":"空蜜S2",
                 "Cost": 15,
-                "Target": "自身",
                 "Effect":[
                     {
+                        "Target": "自身",
                         "Action": "增加攻擊力",
                         "Type": "%",
                         "Point": 20,                        
@@ -36,6 +36,7 @@
                         "TriggerPoint": 1
                     },
                     {
+                        "Target": "自身",
                         "Action": "增加BUFF效果",
                         "Type": "%",
                         "Point": 20,                        
@@ -43,6 +44,58 @@
                         "IntervalPoint": 1,
                         "Trigger": "持續",
                         "TriggerPoint": 1
+                    }
+                ]
+            },
+            {
+                "Display":"光矮人王S1",
+                "Cost": 15,
+                "Effect":[
+                    {
+                        "Target": "自身",
+                        "Action": "增加攻擊力",
+                        "Type": "%",
+                        "Point": 25,
+                        "Interval": "每回合",
+                        "IntervalPoint": 1,
+                        "Trigger": "持續",
+                        "TriggerPoint": 1
+                    },
+                    {
+                        "Target": "自身",
+                        "Action": "增加會心率",
+                        "Type": "%",
+                        "Point": 20,                        
+                        "Interval": "每回合",
+                        "IntervalPoint": 1,
+                        "Trigger": "持續",
+                        "TriggerPoint": 1
+                    }
+                ]
+            },
+            {
+                "Display":"光矮人王S2",
+                "Cost": 15,
+                "Effect":[
+                    {
+                        "Target": "自身",
+                        "Action": "增加會心力",
+                        "Type": "%",
+                        "Point": 20,                        
+                        "Interval": "每回合",
+                        "IntervalPoint": 1,
+                        "Trigger": "持續",
+                        "TriggerPoint": 1
+                    },
+                    {
+                        "Target": "自身",
+                        "Action": "增加防禦力",
+                        "Type": "%",
+                        "Point": 20,                        
+                        "Interval": "每回合",
+                        "IntervalPoint": 1,
+                        "Trigger": "持續",
+                        "TriggerPoint": 3
                     }
                 ]
             }
